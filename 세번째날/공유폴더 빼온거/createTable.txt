@@ -1,0 +1,11 @@
+CREATE TABLE `seojum`.`new_table` (
+  `ISBN` CHAR(10) NOT NULL,
+  `author` VARCHAR(20) NOT NULL,
+  `title` VARCHAR(20) NOT NULL,
+  `genre` VARCHAR(10) NULL,
+  `price` INT NOT NULL,
+  PRIMARY KEY (`ISBN`));
+
+
+
+INSERT INTO `seojum`.`bookTable` (`ISBN`, `author`, `title`, `genre`, `price`) VALUES ('1111', '이동준', '이것이 인문학이다', '인문학', '10000');

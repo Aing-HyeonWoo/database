@@ -1,0 +1,15 @@
+1) On Delete
+ Cascade : 부모 데이터 삭제시 자식 데이터도 동시 삭제.
+ Set null : 부모 데이터 삭제시 해당되는 자식 데이터의 Columm은  Null 로 처리.
+ Set default : 부모 데이터 삭제시 자식 데이터의 Columm은 기본 값(Default) 으로 Update.
+ Restrict : 자식 테이블에 데이터가 남아 있는 경우 부모 테이블의 데이터는 삭제 불가.
+ NO ACTION : 참조되는 테이블에서 데이터를 삭제하거나 수정해도, 참조하는 테이블의 데이터는 변경되지 않습니다.
+
+ 
+
+  2) On Update
+Cascade : 부모 데이터 수정시 자식 데이터도 동시 수정.
+Set null : 부모 데이터 수정시 해당되는 자식 데이터의 Columm은 Null 로 처리.
+Set default : 부모 데이터 수정시 자식 데이터의 Columm은 기본 값(Default) 으로 Update.
+Restrict : 자식 테이블에 데이터가 남아 있는 경우 부모 테이블의 데이터는 수정 불가.
+NO ACTION : 참조되는 테이블에서 데이터를 삭제하거나 수정해도, 참조하는 테이블의 데이터는 변경되지 않습니다.
