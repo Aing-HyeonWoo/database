@@ -1,0 +1,1 @@
+http://tcpschool.com/mysql/mysql_datatype_numeric
